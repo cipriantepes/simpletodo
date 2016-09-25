@@ -1,0 +1,73 @@
+body {
+    background: #fafafa;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #444;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ## List
+--------------------------------------------- */
+.list {
+    background-color: #fff;
+    margin: 1em auto;
+    width: 100%;
+    max-width: 500px;
+    padding: 1em 2em;
+}
+
+.list .header {
+    text-align: center;
+}
+
+/* ## Items
+--------------------------------------------- */
+.items {
+    list-style-type: none;
+    margin-bottom: 1em;
+    margin: 0;
+    padding: 0;
+}
+
+.items__item,
+.item__input {
+    border-width: 0 0 1px;
+    border-color: #ddd;
+    border-style: dashed;
+    padding: 1em 0;
+    width: 100%;
+}
+
+.items__item:hover .item--mark-done {
+    opacity: 1;
+}
+
+.item--done {
+    text-decoration: line-through;
+}
+
+.item--mark-done {
+    color: inherit;
+    font-size: .8em;
+    display: inline-block;
+    background: #eee;
+    padding: .25em .5em;
+    opacity: .35;
+    float: right;
+}
+
+/* ## Submit button
+--------------------------------------------- */
+.item__submit {
+    background: #fff;
+    border: 1px solid #ddd;
+    margin: 1em 0 0;
+    padding: .5em 0;
+    width: 100%;
+    display: block;
+}
